@@ -4,6 +4,10 @@
 
 ### 视频教程链接
 
+* [ConstraintLayout介绍](http://v.youku.com/v_show/id_XMzkxODA5NTg1Ng==.html?spm=a2hzp.8244740.0.0)
+* [ConstraintLayout入门案例](ConstraintLayout居中布局)
+* [ConstraintLayout子控件相对位置的控制](http://v.youku.com/v_show/id_XMzkxODA5Njk0OA==.html?spm=a2hzp.8244740.0.0)
+* [ConstraintLayout实现复杂布局](http://v.youku.com/v_show/id_XMzkxODA5NzUyMA==.html?spm=a2hzp.8244740.0.0)
 
 
 ### 1、ConstraintLayout介绍
