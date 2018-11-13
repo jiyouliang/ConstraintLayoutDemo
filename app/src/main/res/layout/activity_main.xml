@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bcd69e"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+
+    <android.support.constraint.ConstraintLayout style="@style/constraintStyle">
+
+        <TextView
+            style="@style/textStyle"
+            android:text="垂直居中"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout style="@style/constraintStyle">
+
+        <TextView
+            style="@style/textStyle"
+            android:text="水平居中"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout style="@style/constraintStyle">
+
+        <TextView
+            style="@style/textStyle"
+            android:text="居中"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout style="@style/constraintStyle">
+
+        <ImageView
+            android:id="@+id/iv"
+            style="@style/imageStyle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/textStyle"
+            android:layout_marginLeft="10dp"
+            android:text="文字在图片右侧"
+            app:layout_constraintBottom_toBottomOf="@id/iv"
+            app:layout_constraintLeft_toRightOf="@id/iv"
+            app:layout_constraintTop_toTopOf="@id/iv" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</LinearLayout>
